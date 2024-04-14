@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */ /* Remove min-height property */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,57 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.notes-container {
+  display: flex;
+  width: 100vw;
+  height: 15vh;
+  background-color: black;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.notes-header {
+  width: 10%;
+}
+
+/* Hamburger menu styles (adjust as needed) */
+.hamburger-menu {
+  cursor: pointer;
+  align-self: center;
+  color: white;
+}
+
+.notes-heading{
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+
+.inputBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+
+}
+
+.inputContent{
+  padding:5vh;
+  background-color: #ffb380;
+  border: none;
+  border-radius: 0.5rem;
+  width: 30%;
+}
+
+.submitButton {
+  margin-left: 10px; /* Adjust the margin as needed */
+  padding: 8px 16px;
+  background-color: #42cef5;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
